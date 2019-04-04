@@ -54,3 +54,11 @@ console.log('[Ejercicio 1.6]', mensaje);
 function agregarInventario(nombre: string, cantidad: number): string {
 return `Se agregaron ${cantidad} ${nombre}s al inventario.`;
 }
+
+
+
+function agregarAlCarro(item: { id: number, titulo: string, idVariante: number }) {
+    console.log('[Ejercicio 2.1]', `Agregando "${item.titulo}" al carro de compras.`);
+}
+
+//agregarAlCarro({ id: 1, titulo: 'Zapatos de cuero' });
